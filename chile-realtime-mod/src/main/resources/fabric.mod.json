@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chile_realtime",
+  "version": "${version}",
+  "name": "Chile RealTime",
+  "description": "Sincroniza el tiempo de Minecraft con la zona horaria de Chile y muestra la hora en pantalla.",
+  "authors": [
+    "Usuario"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chiletime.ChileRealTimeMod"
+    ],
+    "client": [
+      "com.chiletime.ChileRealTimeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20",
+    "fabric-api": "*"
+  }
+}
